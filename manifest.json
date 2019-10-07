@@ -1,0 +1,15 @@
+{
+  "name": "DT GitHub Approval Checklist",
+  "version": "1.5",
+  "description": "Simple easy to copy approval checklist for those who are lazy enough to not remember it.",
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "page": "index.html"
+  },
+  "browser_action": {
+    "default_icon": "check.png",
+    "default_title": "Copy Approval Checklist to Clickboard"
+  },
+  "permissions": ["clipboardWrite", "activeTab"]
+}
